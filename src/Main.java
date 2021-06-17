@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        int price = 150;
-        int count = 5;
-        int total = price * count;
-        System.out.println(total);
+        int balance = 2_000_000_000;
+        int transfer = 500_000_000;
+        int total = balance + transfer;
+        System.out.println("Текущий баланс счета" + total);
     }
 }
